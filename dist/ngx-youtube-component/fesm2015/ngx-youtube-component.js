@@ -1,4 +1,4 @@
-import { Injectable, NgZone, NgModule, Component, Input, ElementRef, defineInjectable, inject } from '@angular/core';
+import { Injectable, NgZone, Component, Input, ElementRef, NgModule, defineInjectable, inject } from '@angular/core';
 import { Subject } from 'rxjs';
 
 /**

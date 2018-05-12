@@ -25,3 +25,32 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# Erzeugen der Library
+
+ng new demo --style=scss
+cd demo
+ng generate library ngx-youtube-component
+
+Ordner umstrukturieren:
+libs/
+ngx-youtube-component/
+src/
+apps/
+demo/
+src/
+e2e/
+
+Pfade in angular.json anpassen
+ngx-youtube-component als "defaultProject" setzen
+
+In ngx-youtube-component/tslint.json
+lib-Prefix und kebab-case entfernen
+Pfade für app in tslint.json, tsconfig.spec.json und tsconfig.app.json anpassen (../ => ../../../)
+
+Builden der Library:
+ng build ngx-youtube-component
+
+Erzeugen der tgz:
+cd dist\ngx-youtube-component
+npm pack
