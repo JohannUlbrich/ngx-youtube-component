@@ -1,0 +1,22 @@
+{
+  "name": "ngx-youtube-component",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "@types/youtube": "0.0.32"
+  },
+  "main": "bundles/ngx-youtube-component.umd.js",
+  "module": "fesm5/ngx-youtube-component.js",
+  "es2015": "fesm2015/ngx-youtube-component.js",
+  "esm5": "esm5/ngx-youtube-component.js",
+  "esm2015": "esm2015/ngx-youtube-component.js",
+  "fesm5": "fesm5/ngx-youtube-component.js",
+  "fesm2015": "fesm2015/ngx-youtube-component.js",
+  "typings": "ngx-youtube-component.d.ts",
+  "metadata": "ngx-youtube-component.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
